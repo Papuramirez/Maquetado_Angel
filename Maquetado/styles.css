@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #e0d043;
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    min-height: calc(100vh - 100px); /* Ajusta la altura según el header y footer */
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #757474;
+    color: #fff;
+    padding: 1rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 1rem;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    background-color: #555;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.content {
+    flex: 1;
+    padding: 1rem;
+}
+ .friends-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .friend-card {
+            text-align: center;
+            margin: 10px;
+            width: 200px;
+        }
+        .friend-card img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 3px solid #FFD700;
+        }
+        .friend-card p {
+            margin-top: 8px;
+            font-weight: bold;
+        }
+
+footer {
+    background-color: #4d4c4c;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
